@@ -81,7 +81,7 @@ body {
     padding: 16px 16px 174px 34px;
     background-color: #ffffff;
     position: absolute;
-    width: 14.4%;
+    width: 232px;
     top: 75px;
     right: 0;
     box-sizing: border-box;
@@ -308,8 +308,8 @@ color: #9f9f9f;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 96px;
-    margin-bottom: 50px;
+    margin-top: 8.4%;
+    margin-bottom: 4.3%;
     &_align{
         text-align: center;
     }
@@ -629,6 +629,10 @@ color: #9f9f9f;
         font-size: 37px;
         font-weight: 700;
     }
+
+    .banner-all{
+        margin-bottom: 0;
+    }
     .banner-left{
         display: none;
     }
@@ -642,5 +646,110 @@ color: #9f9f9f;
     .banner_text{
         margin-top: -7px;
     }
+
+ .offer{  
+     margin-top: 18%;
+    .offer-top{
+        flex-direction: column;
+        margin-bottom: 0;
+        .link-perc{
+            width: 100%;
+            .offer__item{
+                margin-bottom: 9%;
+            }
+        }
+    }
+    .offer-bottom{
+        .offer-img{
+            min-height: 111px;
+            object-fit: cover;
+        }
+    }
 }
 
+    .product_header{
+        margin-top: 18%;
+        margin-bottom: 18%;
+    }
+
+    .item_flex{
+        .item{
+            margin-bottom: 16px;
+        }
+    }
+
+    .link_button{
+        .product_button{
+            margin-top: 7%;
+            margin-bottom: 27%;
+        }
+    }
+
+    .banner-product__parent {
+        padding-bottom: 22%;
+        .banner-product__item {
+            width: 100%;
+            margin-top: 13%;
+            &-text{
+                margin: 0;
+            }
+            &-img{
+                padding-bottom: 18px;   //5.2%//
+            }
+        }
+
+    }   
+    
+    .connection{
+        .review_letter{
+            .review{
+                width: 100%;
+                .review_text{
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+            .letter{
+                width: 100%;
+                .text_size-18 {
+                    font-size: 14px;
+                }
+                .letter-form{
+                    width: 100%;
+                }
+                .letter_input{
+                    width: 64%;
+                }
+            }
+        }
+    }
+
+    .letter{
+        padding: 0;
+    }
+
+    .bottom{
+        .bottom_all{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 43px 62px 10px;
+        .bottom_right{
+            margin-bottom: 40px;
+        }
+        }    
+    }
+
+
+}
+
+
+@media (max-width: 770px){
+    .banner{
+        min-height: 357px;
+        .banner-left{
+            display: none;
+           
+            background-color: #F1E4E6;
+        }
+    }
+}
