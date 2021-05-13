@@ -14,7 +14,6 @@
 
 body {
   max-width: 1600px;
-  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,6 +23,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
+  margin: 0 auto;
 }
 
 .content {
@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 16px 16px 174px 34px;
+  padding: 16px 16px 16px 34px;
   background-color: #ffffff;
   position: absolute;
   width: 232px;
@@ -116,7 +116,7 @@ body {
           box-sizing: border-box;
   -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
           box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-  max-height: 766px;
+  height: 750px;
   z-index: 1;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .drop-menu .menu-header {
-  padding-bottom: 24px;
+  padding-bottom: 14px;
 }
 
 .drop-menu__item .item-text {
@@ -343,6 +343,7 @@ details summary {
 .header-bold {
   font-size: 48px;
   font-weight: 900;
+  margin-top: -10px;
 }
 
 .header-norm {
@@ -933,5 +934,4 @@ details summary {
     margin-bottom: 40px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0 auto;
   }
 
 .content{
@@ -78,7 +79,7 @@ body {
 .drop-menu{
     display: flex;
     flex-direction: column;
-    padding: 16px 16px 174px 34px;
+    padding: 16px 16px 16px 34px;
     background-color: #ffffff;
     position: absolute;
     width: 232px;
@@ -86,7 +87,7 @@ body {
     right: 0;
     box-sizing: border-box;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-    max-height: 766px;
+    height: 750px;
     z-index: 1;
     .exit{
         text-align: right;
@@ -99,7 +100,7 @@ body {
         padding-top: 10px;
     }
     .menu-header{
-        padding-bottom: 24px;
+        padding-bottom: 14px;
     }
     &__item{
         .item-text{
@@ -268,6 +269,7 @@ color: #9f9f9f;
 .header-bold{
     font-size: 48px;
     font-weight: 900;
+    margin-top: -10px;
 }
 .header-norm{
     font-size: 32px;
@@ -740,16 +742,4 @@ color: #9f9f9f;
     }
 
 
-}
-
-
-@media (max-width: 770px){
-    .banner{
-        min-height: 357px;
-        .banner-left{
-            display: none;
-           
-            background-color: #F1E4E6;
-        }
-    }
 }
